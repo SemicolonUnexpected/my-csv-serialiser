@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UYkgsqkq7sjrvgdrRZiIgZ0xj/rGfvK4G64mrUOIJIBL/BPUPTitVZm4Lilo5soj2PFX8bU0nJJI68PeW3fVfA==",
+  "success": true,
+  "projectFilePath": "/home/mgrac/repos/my-csv-serialiser/wsv-serialiser.csproj",
+  "expectedPackageFiles": [
+    "/home/mgrac/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.1/microsoft.aspnetcore.app.ref.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
