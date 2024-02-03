@@ -1,3 +1,0 @@
-"Test"                 "Test2"      "Test3"
-"The ultimate test"    ""           """quoted pls"""
-"Gimme a "/"new line"  "Test again"

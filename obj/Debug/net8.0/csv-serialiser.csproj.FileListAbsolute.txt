@@ -1,0 +1,15 @@
+/home/mgrac/repos/my-csv-serialiser/bin/Debug/net8.0/csv-serialiser
+/home/mgrac/repos/my-csv-serialiser/bin/Debug/net8.0/csv-serialiser.deps.json
+/home/mgrac/repos/my-csv-serialiser/bin/Debug/net8.0/csv-serialiser.runtimeconfig.json
+/home/mgrac/repos/my-csv-serialiser/bin/Debug/net8.0/csv-serialiser.dll
+/home/mgrac/repos/my-csv-serialiser/bin/Debug/net8.0/csv-serialiser.pdb
+/home/mgrac/repos/my-csv-serialiser/obj/Debug/net8.0/csv-serialiser.GeneratedMSBuildEditorConfig.editorconfig
+/home/mgrac/repos/my-csv-serialiser/obj/Debug/net8.0/csv-serialiser.AssemblyInfoInputs.cache
+/home/mgrac/repos/my-csv-serialiser/obj/Debug/net8.0/csv-serialiser.AssemblyInfo.cs
+/home/mgrac/repos/my-csv-serialiser/obj/Debug/net8.0/csv-serialiser.csproj.CoreCompileInputs.cache
+/home/mgrac/repos/my-csv-serialiser/obj/Debug/net8.0/csv-serialiser.sourcelink.json
+/home/mgrac/repos/my-csv-serialiser/obj/Debug/net8.0/csv-serialiser.dll
+/home/mgrac/repos/my-csv-serialiser/obj/Debug/net8.0/refint/csv-serialiser.dll
+/home/mgrac/repos/my-csv-serialiser/obj/Debug/net8.0/csv-serialiser.pdb
+/home/mgrac/repos/my-csv-serialiser/obj/Debug/net8.0/csv-serialiser.genruntimeconfig.cache
+/home/mgrac/repos/my-csv-serialiser/obj/Debug/net8.0/ref/csv-serialiser.dll

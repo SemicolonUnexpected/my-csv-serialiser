@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/mgrac/repos/my-csv-serialiser/wsv-serialiser.csproj",
-      "projectName": "wsv-serialiser",
-      "projectPath": "/home/mgrac/repos/my-csv-serialiser/wsv-serialiser.csproj",
+      "projectUniqueName": "/home/mgrac/repos/my-csv-serialiser/csv-serialiser.csproj",
+      "projectName": "csv-serialiser",
+      "projectPath": "/home/mgrac/repos/my-csv-serialiser/csv-serialiser.csproj",
       "packagesPath": "/home/mgrac/.nuget/packages/",
       "outputPath": "/home/mgrac/repos/my-csv-serialiser/obj/",
       "projectStyle": "PackageReference",

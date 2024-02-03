@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "csv-serialiser/1.0.0": {
+        "runtime": {
+          "csv-serialiser.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "csv-serialiser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
