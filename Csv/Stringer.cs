@@ -17,14 +17,16 @@ public static class Stringer {
                 fieldBuilder.Replace(@",", @"\,");
                 fieldBuilder.Replace("\n", @"\n");
 
+                // Add a comma separator
+                fieldBuilder.Append(',');
+
                 stringBuilder.Append(fieldBuilder.ToString());
             }
         }
 
+        // Remove the trailing comma from the string, add a trailing newline and return the final text
+        stringBuilder.Remove(stringBuilder.Length - 1, 1);
+        stringBuilder.Append('\n');
         return stringBuilder.ToString();
-    }
-
-    public static string Stringify(params string?[] values) {
-        return Stringify(values);
     }
 }

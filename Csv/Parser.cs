@@ -1,8 +1,8 @@
 namespace Csv;
 
 public static class Parser {
-    public static List<string?> ParseLine(string line) {
-        return Lexer.Lex(new LineIterator(line));
+    public static string?[] ParseLine(string line) {
+        return Lexer.Lex(new LineIterator(line)).ToArray();
     }
 
     public static string?[][] ParseText(string text) {

@@ -1,14 +1,29 @@
 ﻿using Csv;
 
-while (true) {
-    Console.Write(">>> ");
-    string test = Console.ReadLine() + '\n';
+string?[] original = new string[] {
+    "test",
+    "test",
+    "test",
+};
 
-    Console.WriteLine($"{test}\nLength: {test.Length}");
+Console.WriteLine(original.ToString());
 
-    var fields = Parser.ParseLine(test);
+string stringified = Stringer.Stringify(original);
 
-    System.Console.WriteLine("----- Output ------");
+Console.WriteLine("Input has been stringified:\n" + stringified);
 
-    System.Console.WriteLine(string.Join("\n", fields.Select(x => x is null ? "null" : x)));
-}
+string?[] copied = Parser.ParseLine(stringified);
+
+Console.WriteLine($"Stringified has been parsed. Sequence equality : {copied.SequenceEqual(original)}");
+
+//    Console.Write(">>> ");
+//    string test = Console.ReadLine() + '\n';
+//
+//    Console.WriteLine($"{test}\nLength: {test.Length}");
+//
+//    var fields = Parser.ParseLine(test);
+//
+//    System.Console.WriteLine("----- Output ------");
+//
+//    System.Console.WriteLine(string.Join("\n", fields.Select(x => x is null ? "null" : x)));
+//}
