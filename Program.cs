@@ -6,11 +6,9 @@ while (true) {
 
     Console.WriteLine($"{test}\nLength: {test.Length}");
 
-    LineIterator iterator = new LineIterator(test);
-
-    var fields = Parser.Lex(iterator);
+    var fields = Parser.ParseLine(test);
 
     System.Console.WriteLine("----- Output ------");
 
-   System.Console.WriteLine(string.Join("\n", fields.Select(x => x is null ? "null" : x)));
+    System.Console.WriteLine(string.Join("\n", fields.Select(x => x is null ? "null" : x)));
 }
