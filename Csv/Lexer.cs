@@ -2,7 +2,7 @@ using System.Text;
 
 namespace Csv;
 
-public static class Lexer {
+internal static class Lexer {
     private const string BACKSLASH_NOT_ESCAPED_EXCEPTION = "Backslashes must be escaped";
 
     public static List<string?> Lex(LineIterator lineIterator) {
@@ -38,8 +38,10 @@ public static class Lexer {
                         lineIterator.Next(2);
                     }
                     // Parse a null value, a backslash then a dash by itself
-                    else if (lineIterator.Peek('-') && (lineIterator.Peek(',', 2) || lineIterator.Peek('\n', 2)) &&
-                            (lineIterator.Previous(',') || lineIterator.AtStart)) {
+                    else if (lineIterator.Peek('-') && 
+                            (lineIterator.Peek(',', 2) || lineIterator.Peek('\n', 2)) &&
+                            (lineIterator.Previous(',') || lineIterator.AtStart) &&
+                            fieldBuilder.Length == 0) {
                         fields.Add(null);
                         lineIterator.Next(3);
                         break;

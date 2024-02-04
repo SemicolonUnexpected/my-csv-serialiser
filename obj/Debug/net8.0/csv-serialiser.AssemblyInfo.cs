@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("csv-serialiser")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4fd12c36faa8b5878da2836833f6a8ccb4a9a5f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ffcb63ac213d631541fa1369d5f0b0f21dbf9d92")]
 [assembly: System.Reflection.AssemblyProductAttribute("csv-serialiser")]
 [assembly: System.Reflection.AssemblyTitleAttribute("csv-serialiser")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

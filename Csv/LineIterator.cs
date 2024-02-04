@@ -1,6 +1,6 @@
 namespace Csv;
 
-public ref struct LineIterator {
+internal ref struct LineIterator {
     private const string NEW_LINE_ERROR = "A line must have the newline character at the end only";
 
     public int Index { get; private set; }
