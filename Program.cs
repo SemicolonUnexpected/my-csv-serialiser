@@ -1,9 +1,11 @@
 ﻿using Csv;
 
-string?[] original = new string[] {
-    "test",
-    "test",
-    "test",
+string?[] original = new string?[] {
+    "This is a \n newline",
+    "\\",
+    @"\-",
+    null,
+    "Not null but with a \\"
 };
 
 Console.WriteLine(original.ToString());
