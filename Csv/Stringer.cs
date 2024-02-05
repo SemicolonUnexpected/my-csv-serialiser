@@ -29,4 +29,16 @@ public static class Stringer {
         stringBuilder.Append('\n');
         return stringBuilder.ToString();
     }
+
+    public static string StringifyForFile(string?[][] fieldGroups) {
+        StringBuilder outputFileString = new();
+
+        foreach(string?[] fieldGroup in fieldGroups) {
+            outputFileString.Append(Stringify(fieldGroup));
+        }
+
+        // Remove the trailing newline
+        outputFileString.Remove(outputFileString.Length - 1, 1);
+        return outputFileString.ToString();
+    }
 }
